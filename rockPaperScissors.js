@@ -10,8 +10,8 @@ function getComputerChoice() {
 }
 
 function getUserChoice() {
-  userInput = prompt("Please choose either Rock, Paper, or Scissors: ");
-  lowercaseUserInput = userInput.toLowerCase();
+  let userInput = prompt("Please choose either Rock, Paper, or Scissors: ");
+  let lowercaseUserInput = userInput.toLowerCase();
   switch (lowercaseUserInput) {
     case "rock":
       return "Rock";
