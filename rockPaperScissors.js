@@ -61,7 +61,7 @@ function playRound(humanChoice) {
     (humanChoice === "Paper" && computerChoice === "Rock") ||
     (humanChoice === "Scissors" && computerChoice === "Paper")
   ) {
-    roundWinnerDisplay = "You win this round!";
+    roundWinnerDisplay.textContent = "You win this round!";
     humanScore++;
   } else {
     roundWinnerDisplay.textContent = "You lose this round!";
