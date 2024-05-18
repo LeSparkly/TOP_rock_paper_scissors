@@ -5,7 +5,7 @@ const rockButton = document.querySelector("#rock");
 const paperButton = document.querySelector("#paper");
 const scissorsButton = document.querySelector("#scissors");
 
-const humanScoreDisplay = document.querySelector("#player.score");
+const humanScoreDisplay = document.querySelector(".player.score");
 const computerScoreDisplay = document.querySelector(".computer.score");
 const humanMoveDisplay = document.querySelector(".human.move");
 const computerMoveDisplay = document.querySelector(".computer.move");
