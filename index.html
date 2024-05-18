@@ -6,18 +6,24 @@
     <title>Rock Paper Scissors</title>
     <script src="rockPaperScissors.js" defer></script>
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <h1>Rock Paper Scissors</h1>
     <div class="container">
-      <button class="play button">START GAME</button>
-      <div>
-        <div class="human move">wewe</div>
-        <div class="computer move"></div>
-        <div class="round winner"></div>
-        <ul>
-          <li id="player score"></li>
-          <li class="computer score"></li>
-        </ul>
+      <button class="playButton">START GAME</button>
+      <div class="text-container">
+        <div class="humanMove">You chose:</div>
+        <div class="computerMove">Computer chose</div>
+        <div class="roundWinner">Round Winner...</div>
+        <div class="playerScore">Your Score: 0</div>
+        <div class="computerScore">Computer Score: 0</div>
       </div>
       <span class="buttons">
         <button id="rock">Rock</button>
