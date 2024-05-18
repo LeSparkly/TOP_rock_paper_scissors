@@ -5,14 +5,13 @@ const rockButton = document.querySelector("#rock");
 const paperButton = document.querySelector("#paper");
 const scissorsButton = document.querySelector("#scissors");
 
-const humanScoreDisplay = document.querySelector("#player-score");
-const computerScoreDisplay = document.querySelector(".computer-score");
-const humanMoveDisplay = document.querySelector(".human-move");
+const humanScoreDisplay = document.querySelector("#player.score");
+const computerScoreDisplay = document.querySelector(".computer.score");
+const humanMoveDisplay = document.querySelector(".human.move");
 const computerMoveDisplay = document.querySelector(".computer.move");
 let roundWinnerDisplay = document.querySelector(".round.winner");
 
-const playButton = document.querySelector(".play-button");
-const buttonSpan = document.querySelector(".buttons");
+const playButton = document.querySelector(".play.button");
 
 playButton.addEventListener("click", () => {
   playGame();
